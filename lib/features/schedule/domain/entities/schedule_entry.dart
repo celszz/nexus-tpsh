@@ -1,10 +1,13 @@
+import 'package:nexus_tpsh/features/schedule/domain/entities/weekday.dart';
+
 class ScheduleEntry {
   final String id;
   final String classId;
+  final String subjectId;
   final String teacherId;
   final String roomId;
-  final String weekday;
-  final String number;
+  final Weekday weekday;
+  final int lessonNumber;
 
   const ScheduleEntry({
     required this.id,
@@ -12,5 +15,6 @@ class ScheduleEntry {
     required this.teacherId,
     required this.roomId,
     required this.weekday,
-    required this.number});
+    required this.lessonNumber,
+    required this.subjectId});
 }

@@ -1,14 +1,14 @@
 class Teacher {
   final String id;
-  final String name;
-  final String surname;
+  final String firstname;
+  final String lastname;
   final String? patronymic;
   final bool isClassSupervisor;
 
   const Teacher({
     required this.id,
-    required this.name,
-    required this.surname,
+    required this.firstname,
+    required this.lastname,
     this.patronymic,
     required this.isClassSupervisor});
 }

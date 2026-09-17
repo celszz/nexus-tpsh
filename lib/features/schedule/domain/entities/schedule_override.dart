@@ -5,6 +5,7 @@ class ScheduleOverride {
   final String? teacherId;
   final String? roomId;
   final bool isCancelled;
+  final DateTime date;
 
   const ScheduleOverride({
     required this.id,
@@ -12,5 +13,6 @@ class ScheduleOverride {
     this.subjectId,
     this.teacherId,
     this.roomId,
-    required this.isCancelled});
+    required this.isCancelled,
+    required this.date});
 }

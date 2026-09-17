@@ -1,7 +1,7 @@
 class SchoolClass{
   final String id;
   final String name;
-  final String grade;
+  final int grade;
   final String? parallelLetter;
   final String? profile;
 
